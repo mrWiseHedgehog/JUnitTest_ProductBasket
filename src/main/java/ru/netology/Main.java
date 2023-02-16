@@ -10,8 +10,8 @@ public class Main {
 
         File file = new File("basket.txt");
 
-        String[] products = new String[]{"Яблоко", "Помидор", "Апельсин", "Груша"};
-        int[] prices = new int[]{30, 50, 70, 40};
+        String[] products = new String[]{"Маргарин", "Мясо", "Каша", "Макароны"};
+        int[] prices = new int[]{70, 350, 50, 59};
         Basket basket = new Basket(products, prices);
 
         Scanner scanner = new Scanner(System.in);

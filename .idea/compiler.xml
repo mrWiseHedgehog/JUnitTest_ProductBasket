@@ -9,5 +9,8 @@
         <module name="JUnitTest_ProductBasket" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="L1" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
